@@ -30,3 +30,9 @@ why gradient descent can't gurantee best solution?
 partial derivatives https://www.khanacademy.org/math/multivariable-calculus/multivariable-derivatives/partial-derivatives/v/partial-derivatives-introduction
 
 python section slices https://docs.python.org/2.3/whatsnew/section-slices.html
+
+
+backprop gradient chain on graphs https://www.youtube.com/watch?v=i94OvYb6noo
+
+backpropagation jacobian matrix (effect of every item in X to the Z)
+
