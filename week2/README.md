@@ -36,3 +36,6 @@ backprop gradient chain on graphs https://www.youtube.com/watch?v=i94OvYb6noo
 
 backpropagation jacobian matrix (effect of every item in X to the Z)
 
+weights initialization: zero mean, small variance, image normalization (color_channel - 128)/128
+
+cross validation
