@@ -11,7 +11,8 @@ Dropout -> https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf
 - Statistical invariance
 - translation invariance
 
-- patch (kernel)
+- filter (kernel)
+	- kernel size is odd in general: 1, 3, 5 ...
 - feature map
 - stride
 - padding 
@@ -21,4 +22,10 @@ Dropout -> https://www.cs.toronto.edu/~hinton/absps/JMLRdropout.pdf
 	- Same padding: SAME = pad enough so the output has the same dimensions as the input tensor.
 	- VALID padding: no-padding
 
+- number of filters (k) : power of 2 in general, to make computations efficient
+
 - CNN structure https://www.youtube.com/watch?v=V8JDMkARdfU&list=PLlJy-eBtNFt6EuMxFYRiNRS07MCWN5UIA&index=7
+
+- pooling
+	- **max-pooling** : Conceptually, the benefit of the max pooling operation is to reduce the size of the input, and allow the neural network to focus on only the most important elements. Max pooling does this by only retaining the maximum value for each filtered area, and removing the remaining values. Use `tf.nn.max_pool()` function. 
+	- average pooling
